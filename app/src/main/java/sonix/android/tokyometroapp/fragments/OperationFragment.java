@@ -1,5 +1,9 @@
 package sonix.android.tokyometroapp.fragments;
 
+import android.os.Bundle;
+import android.support.annotation.Nullable;
+
+import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.EFragment;
 
 import sonix.android.tokyometroapp.R;
@@ -10,4 +14,9 @@ import sonix.android.tokyometroapp.R;
 
 @EFragment(R.layout.fragment_operation)
 public class OperationFragment extends BaseFragment {
+
+    @AfterViews
+    void afterViews() {
+
+    }
 }
