@@ -20,7 +20,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import sonix.android.tokyometroapp.R;
-import sonix.android.tokyometroapp.activities.OperationActivity;
 import sonix.android.tokyometroapp.activities.OperationActivity_;
 
 /**
