@@ -23,8 +23,9 @@ import sonix.android.tokyometroapp.R;
 import sonix.android.tokyometroapp.activities.OperationActivity_;
 
 /**
- * Created by hiroki.ishikawa on 2017/04/05.
+ * メイン画面
  */
+
 @EFragment(R.layout.fragment_main)
 public class MainFragment extends BaseFragment {
 

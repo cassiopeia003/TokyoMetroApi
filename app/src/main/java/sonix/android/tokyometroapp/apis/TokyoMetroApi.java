@@ -8,7 +8,7 @@ import retrofit2.http.Query;
 import sonix.android.tokyometroapp.entities.Operation;
 
 /**
- * Created by hiroki.ishikawa on 2017/04/06.
+ * API
  */
 
 public interface TokyoMetroApi {

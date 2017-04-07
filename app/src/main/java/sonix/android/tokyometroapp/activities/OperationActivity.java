@@ -5,7 +5,7 @@ import org.androidannotations.annotations.EActivity;
 import sonix.android.tokyometroapp.R;
 
 /**
- * Created by hiroki.ishikawa on 2017/04/06.
+ * 運行情報画面
  */
 
 @EActivity(R.layout.activity_operation)

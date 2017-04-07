@@ -12,8 +12,9 @@ import retrofit2.converter.gson.GsonConverterFactory;
 import sonix.android.tokyometroapp.entities.Operation;
 
 /**
- * Created by hiroki.ishikawa on 2017/04/06.
+ * API通信を行う
  */
+
 @EBean
 public class ApiService {
     public void getOperation(String type, String consumerKey, Callback<List<Operation>> callback) {

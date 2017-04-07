@@ -8,8 +8,9 @@ import org.androidannotations.annotations.EFragment;
 import sonix.android.tokyometroapp.apis.ApiService;
 
 /**
- * Created by hiroki.ishikawa on 2017/04/05.
+ * 基底となるクラス
  */
+
 @EFragment
 abstract class BaseFragment extends Fragment {
     @Bean

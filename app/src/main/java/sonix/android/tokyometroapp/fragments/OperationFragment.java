@@ -17,7 +17,7 @@ import sonix.android.tokyometroapp.R;
 import sonix.android.tokyometroapp.entities.Operation;
 
 /**
- * Created by hiroki.ishikawa on 2017/04/06.
+ * 運行情報画面
  */
 
 @EFragment(R.layout.fragment_operation)

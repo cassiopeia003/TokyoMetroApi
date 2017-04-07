@@ -2,14 +2,11 @@ package sonix.android.tokyometroapp.entities;
 
 import com.google.gson.annotations.SerializedName;
 
-import java.io.Serializable;
-
 /**
- * Created by hiroki.ishikawa on 2017/04/06.
+ * 運行情報のAPIに含まれている要素
  */
 
 public class Operation {
-
 
     @SerializedName("dc:date")
     public String date;
