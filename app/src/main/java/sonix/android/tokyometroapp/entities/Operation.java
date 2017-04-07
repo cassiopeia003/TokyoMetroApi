@@ -10,6 +10,7 @@ import java.io.Serializable;
 
 public class Operation {
 
+
     @SerializedName("dc:date")
     public String date;
 

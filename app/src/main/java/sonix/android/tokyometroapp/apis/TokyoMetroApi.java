@@ -1,6 +1,8 @@
 package sonix.android.tokyometroapp.apis;
 
-import retrofit2.Callback;
+import java.util.List;
+
+import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Query;
 import sonix.android.tokyometroapp.entities.Operation;
@@ -11,9 +13,8 @@ import sonix.android.tokyometroapp.entities.Operation;
 
 public interface TokyoMetroApi {
 
-    String BASE_URL = "https://api.tokyometroapp.jp/api/v2/datapoints";
+    String BASE_URL = "https://api.tokyometroapp.jp/";
 
-
-    @GET(BASE_URL)
-    void getOperation(@Query("rdf:type") String type, @Query("dc:title") String title, @Query("acl:consumerKey") String consumerKey, Callback<Operation> cb);
+    @GET("api/v2/datapoints")
+    Call<List<Operation>> getOperation(@Query("rdf:type") String type, @Query("acl:consumerKey") String consumerKey);
 }
