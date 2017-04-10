@@ -12,7 +12,7 @@
     <string name="MLIT_rail">国土交通省国土数値情報 地物（線路）情報</string>
     <string name="metro_station">東京メトロ駅情報</string>
     <string name="metro_rail">東京メトロ路線情報</string>
-    <string name="ciyoda">千代田線</string>
+    <string name="chiyoda">千代田線</string>
     <string name="fukutoshin">副都心線</string>
     <string name="ginza">銀座線</string>
     <string name="hanzomon">半蔵門線</string>

@@ -50,7 +50,14 @@ public class OperationFragment extends BaseFragment {
                 ArrayList<OperationItem> operationList = new ArrayList<>();
 
                 operationList.add(new OperationItem.Builder().trainImage(R.drawable.ginza).trainName(getString(R.string.ginza)).trainInformation(response.body().get(0).trainInformationText).build());
-                operationList.add(new OperationItem.Builder().trainImage(R.drawable.ginza).trainName(getString(R.string.ginza)).trainInformation(response.body().get(0).trainInformationText).build());
+                operationList.add(new OperationItem.Builder().trainImage(R.drawable.tozai).trainName(getString(R.string.tozai)).trainInformation(response.body().get(1).trainInformationText).build());
+                operationList.add(new OperationItem.Builder().trainImage(R.drawable.chiyoda).trainName(getString(R.string.chiyoda)).trainInformation(response.body().get(2).trainInformationText).build());
+                operationList.add(new OperationItem.Builder().trainImage(R.drawable.nanboku).trainName(getString(R.string.nanboku)).trainInformation(response.body().get(3).trainInformationText).build());
+                operationList.add(new OperationItem.Builder().trainImage(R.drawable.marunouchi).trainName(getString(R.string.marunouchi)).trainInformation(response.body().get(4).trainInformationText).build());
+                operationList.add(new OperationItem.Builder().trainImage(R.drawable.hanzomon).trainName(getString(R.string.hanzomon)).trainInformation(response.body().get(5).trainInformationText).build());
+                operationList.add(new OperationItem.Builder().trainImage(R.drawable.yurakucho).trainName(getString(R.string.yurakucho)).trainInformation(response.body().get(6).trainInformationText).build());
+                operationList.add(new OperationItem.Builder().trainImage(R.drawable.fukutoshin).trainName(getString(R.string.fukutoshin)).trainInformation(response.body().get(7).trainInformationText).build());
+                operationList.add(new OperationItem.Builder().trainImage(R.drawable.hibiya).trainName(getString(R.string.hibiya)).trainInformation(response.body().get(8).trainInformationText).build());
 
                 OperationAdapter operationAdapter = new OperationAdapter(getActivity(), operationList);
                 listView.setAdapter(operationAdapter);
