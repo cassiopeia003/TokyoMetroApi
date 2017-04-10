@@ -1,4 +1,5 @@
 <resources>
+    <string name="consumer_key">e0b630fa1a98bfa67af9d8162fc626d49e5ea605b7611d45673125a196893afb</string>
     <string name="app_name">TokyoMetroApp</string>
     <string name="location">列車ロケーション情報</string>
     <string name="operation">運行情報</string>
@@ -11,4 +12,13 @@
     <string name="MLIT_rail">国土交通省国土数値情報 地物（線路）情報</string>
     <string name="metro_station">東京メトロ駅情報</string>
     <string name="metro_rail">東京メトロ路線情報</string>
+    <string name="ciyoda">千代田線</string>
+    <string name="fukutoshin">副都心線</string>
+    <string name="ginza">銀座線</string>
+    <string name="hanzomon">半蔵門線</string>
+    <string name="hibiya">日比谷線</string>
+    <string name="marunouchi">丸ノ内線</string>
+    <string name="nanboku">南北線</string>
+    <string name="tozai">東西線</string>
+    <string name="yurakucho">有楽町線</string>
 </resources>
