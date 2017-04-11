@@ -22,6 +22,7 @@ import java.util.List;
 
 import sonix.android.tokyometroapp.R;
 import sonix.android.tokyometroapp.activities.OperationActivity_;
+import sonix.android.tokyometroapp.activities.TimeTableActivity_;
 
 /**
  * メイン画面
@@ -39,7 +40,7 @@ public class MainFragment extends BaseFragment {
 
         menuList.add(new MenuItem.Builder().label(getString(R.string.location)).build());
         menuList.add(new MenuItem.Builder().label(getString(R.string.operation)).intent(OperationActivity_.intent(this).get()).build());
-        menuList.add(new MenuItem.Builder().label(getString(R.string.timetable)).build());
+        menuList.add(new MenuItem.Builder().label(getString(R.string.timetable)).intent(TimeTableActivity_.intent(this).get()).build());
         menuList.add(new MenuItem.Builder().label(getString(R.string.equipment)).build());
         menuList.add(new MenuItem.Builder().label(getString(R.string.station)).build());
         menuList.add(new MenuItem.Builder().label(getString(R.string.charge)).build());

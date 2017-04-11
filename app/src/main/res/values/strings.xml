@@ -22,4 +22,7 @@
     <string name="tozai">東西線</string>
     <string name="yurakucho">有楽町線</string>
     <string name="error">error</string>
+    <string name="ride_station">乗車駅</string>
+    <string name="railway">路線</string>
+    <string name="search">検索</string>
 </resources>

@@ -3,11 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.OperationActivity_">
+    tools:context=".activities.TimeTableActivity_">
 
     <fragment
-        android:id="@+id/operation_fragment"
-        android:name="sonix.android.tokyometroapp.fragments.OperationFragment_"
+        android:id="@+id/timetable_fragment"
+        android:name="sonix.android.tokyometroapp.fragments.TimeTableFragment_"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </RelativeLayout>
