@@ -45,8 +45,6 @@ public class OperationFragment extends BaseFragment {
         apiService.getOperation(TYPE, pref.consumerKey().get(), new Callback<List<Operation>>() {
             @Override
             public void onResponse(Call<List<Operation>> call, Response<List<Operation>> response) {
-                Toast.makeText(getContext(), "OK", Toast.LENGTH_SHORT).show();
-
                 ArrayList<OperationItem> operationList = new ArrayList<>();
 
                 operationList.add(new OperationItem.Builder().trainImage(R.drawable.ginza).trainName(getString(R.string.ginza)).trainInformation(response.body().get(0).trainInformationText).build());
@@ -65,8 +63,7 @@ public class OperationFragment extends BaseFragment {
 
             @Override
             public void onFailure(Call<List<Operation>> call, Throwable t) {
-                Log.e("", "",t);
-                Toast.makeText(getContext(), "error", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getContext(), getString(R.string.error), Toast.LENGTH_SHORT).show();
             }
         });
     }
