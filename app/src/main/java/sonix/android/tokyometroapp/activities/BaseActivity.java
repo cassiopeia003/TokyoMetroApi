@@ -5,8 +5,9 @@ import android.support.v7.app.AppCompatActivity;
 import org.androidannotations.annotations.EActivity;
 
 /**
- * Created by hiroki.ishikawa on 2017/04/05.
+ * 基底となるクラス
  */
+
 @EActivity
 abstract class BaseActivity extends AppCompatActivity {
 }

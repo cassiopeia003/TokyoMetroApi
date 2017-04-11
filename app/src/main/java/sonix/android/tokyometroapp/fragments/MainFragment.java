@@ -3,6 +3,7 @@ package sonix.android.tokyometroapp.fragments;
 import android.content.Context;
 import android.content.Intent;
 import android.support.annotation.NonNull;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -20,12 +21,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 import sonix.android.tokyometroapp.R;
-import sonix.android.tokyometroapp.activities.OperationActivity;
 import sonix.android.tokyometroapp.activities.OperationActivity_;
 
 /**
- * Created by hiroki.ishikawa on 2017/04/05.
+ * メイン画面
  */
+
 @EFragment(R.layout.fragment_main)
 public class MainFragment extends BaseFragment {
 
@@ -50,6 +51,10 @@ public class MainFragment extends BaseFragment {
 
         MenuAdapter menuAdapter = new MenuAdapter(getActivity(), menuList);
         listView.setAdapter(menuAdapter);
+
+        if (!pref.consumerKey().get().equals(getString(R.string.consumer_key))) {
+            pref.consumerKey().put(getString(R.string.consumer_key));
+        }
     }
 
     protected static class MenuItem {

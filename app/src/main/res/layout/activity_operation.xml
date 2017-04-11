@@ -9,6 +9,5 @@
         android:id="@+id/operation_fragment"
         android:name="sonix.android.tokyometroapp.fragments.OperationFragment_"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
-
+        android:layout_height="match_parent" />
 </RelativeLayout>
